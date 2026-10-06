@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "JPEG Auto Downloader",
+  "version": "1.0.0",
+  "description": "Automatically downloads JPEG images opened in a tab and closes the tab.",
+  "permissions": [
+    "downloads",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
